@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+header img {
+    width: 300px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+h2 {
+    margin-top: 10vh;
+    color: white;
+    margin-bottom: 5vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+li {
+    margin:0px 5px;
+    overflow:hidden;
+    width: fit-content;
+}
+.fotoperfil {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    border: 1px solid #1E1E20;
+}
+.fotoperfil img {
+	transition: all 0.5s;
+}
+.fotoperfil:hover{
+    cursor: pointer;
+    border: 2px outset rgba(255, 255, 255, 0.911);
+    transition: all 0.1s;
+}
+
+.fotoperfil img:hover {
+	transform: scale(1.3);
+}
+
+.adicionarperfil {
+    display: flex;
+    align-items: center;
+    border: 2px solid #1E1E20;
+    background-color: #1E1E20;
+    border-radius: 5px;
+    width: 160px;
+    height: 160px;
+    justify-content: center;
+}
+
+.adicionarperfil img {
+    width: 60px;
+    height: 60px;
+}
+
+.adicionarperfil:hover {
+    filter: brightness(180%);
+    cursor: pointer;
+    border: 2px outset rgba(255, 255, 255, 0.911);
+    transition: all 0.1s;
+}
+
+p {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.gerenciarperfil {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: white;
+    color: black;
+}
